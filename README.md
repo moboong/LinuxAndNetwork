@@ -72,7 +72,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </details>
 
 <details markdown="1">
-<summary>### 문제3 디렉토리summary>
+<summary>### 문제3 디렉토리</summary>
 
 사용자 list: /etc/passwd
 그룹 list: /etc/group
