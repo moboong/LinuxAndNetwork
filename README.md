@@ -70,3 +70,42 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 3. 새로운 시스템을 도입하기 전에 테스트해보려 할 때<br>
 
 </details>
+
+<details markdown="1">
+<summary>### 문제3 디렉토리summary>
+
+사용자 list: /etc/passwd
+그룹 list: /etc/group
+
+</details>
+
+<details markdown="1">
+<summary>### 문제4 하드링크&심볼릭링크</summary>
+하드 링크를 생성하는 명령은 ln 원본파일 링크파일명<br>
+심벌릭 링크를 생성하는 명령은 ln -s 원본파일 링크파일명<br>
+
+그림그리기<br>
+
+하드링크는 같은 노드를 가리키고 원본데이터를 복사해서 갖는다.<br>
+심볼릭링크는 다른 노드를 갖고 원본데이터의 포인터를 갖는다.<br>
+원본삭제 시 하드링크는 살아있지만 심볼릭링크는 사용불가다.<br>
+파악하지 못한 하드링크가 있는 경우 불필요한 저장소 낭비<br>
+원본이 이동되어도 사용가능<br>
+
+심볼릭링크는 원본삭제시 사용 불가. but 원본이름만 같으면 다른 파일이어도 동작.<br>
+
+</details>
+
+
+<details markdown="1">
+<summary>### 문제5 프로세스</summary>
+하드디스크에 저장된 실행 코드(프로그램)가 메모리에 로딩되어 활성화된 것<br>
+Foreground process:<br>
+실행하면 화면에 나타나서 사용자와 상호 작용을 하는 프로세스<br>
+사용자와 상호작용을 해야만 하는 작업<br>
+
+Background process:<br>
+화면에 나타나지 않은 채 뒤에서 실행되는 프로세스<br>
+오래 걸리는 작업, 상호작용을 하지 않아도 되는 작업 실행<br>
+
+</details>
